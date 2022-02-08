@@ -1,0 +1,14 @@
+-- TABLE
+CREATE TABLE `Jobs` (
+	`id` INT AUTO_INCREMENT PRIMARY KEY,
+	`url` VARCHAR(2048) NOT NULL,
+	`status` VARCHAR(10) NOT NULL DEFAULT 'NEW',
+	`http_code` INT
+);
+ 
+-- INDEX
+ 
+-- TRIGGER
+ 
+-- VIEW
+ 
